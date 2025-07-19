@@ -1,0 +1,26 @@
+name: CI Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  basic-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: List folder structure
+      run: ls -R
+
+    - name: Validate JSON files
+      run: |
+        find . -name "*.json" -exec jq empty {} \;
+
+    - name: Validate SQL files are not empty
+      run: |
+        find . -name "*.sql" -exec test -s {} \;

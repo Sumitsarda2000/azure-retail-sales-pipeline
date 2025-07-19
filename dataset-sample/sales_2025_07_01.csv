@@ -1,0 +1,6 @@
+TransactionID,ProductID,ProductName,QuantitySold,SaleAmount,SaleDate
+1001,P001,Shoes,2,1200,2025-07-01
+1002,P002,T-Shirt,5,2500,2025-07-01
+1003,P003,Jeans,1,1800,2025-07-01
+1004,P004,Watch,1,3500,2025-07-01
+1005,P005,Bag,3,2700,2025-07-01

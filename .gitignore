@@ -1,0 +1,9 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+
+# Ignore system files
+.DS_Store
+Thumbs.db

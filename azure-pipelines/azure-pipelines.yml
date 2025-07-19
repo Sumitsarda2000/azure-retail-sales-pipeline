@@ -1,0 +1,17 @@
+
+---
+
+## 📌 Goals
+
+- Create and deploy Azure resources via Terraform
+- Build ADF pipeline to ingest & validate data
+- Automate ADF pipeline deployment with GitHub Actions
+- Load valid data into SQL tables
+- Optional: Add monitoring & error handling
+
+---
+
+## 👨‍💻 Author
+
+**Sumit S.** — DevOps | Azure Cloud | ADF | Terraform Enthusiast  
+[LinkedIn](https://www.linkedin.com/in/sumitsarda) | [GitHub](https://github.com/Sumit)
