@@ -1,9 +1,21 @@
-# Ignore Terraform files
-*.tfstate
-*.tfstate.backup
-.terraform/
-terraform.tfvars
+# VSCode
+.vscode/
 
-# Ignore system files
+# Python or Jupyter
+__pycache__/
+*.ipynb_checkpoints
+
+# OS Files
 .DS_Store
 Thumbs.db
+
+# Logs & Output
+*.log
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Azure Data Factory
+*.publishsettings
